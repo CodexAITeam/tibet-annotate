@@ -136,3 +136,5 @@ class StaBiMets(object):
         if file is None:
             return None
         return file.find('./{http://www.loc.gov/METS/}FLocat[@LOCTYPE="URL"]').attrib['{http://www.w3.org/1999/xlink}href']
+
+# vim:expandtab
